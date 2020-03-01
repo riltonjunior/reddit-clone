@@ -5,13 +5,13 @@ import 'firebase/firestore';
 
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDr92eJ-JNouwRrQzCkMefPPqt_Fb_R_KM',
-  authDomain: 'reddit-clone-e0b7c.firebaseapp.com',
-  databaseURL: 'https://reddit-clone-e0b7c.firebaseio.com',
-  projectId: 'reddit-clone-e0b7c',
-  storageBucket: 'reddit-clone-e0b7c.appspot.com',
-  messagingSenderId: '200451434134',
-  appId: '1:200451434134:web:3ecebd479467743ccd44b7',
+  apiKey: '***REMOVED***',
+  authDomain: '***REMOVED***',
+  databaseURL: '***REMOVED***',
+  projectId: '***REMOVED***',
+  storageBucket: '***REMOVED***.appspot.com',
+  messagingSenderId: '***REMOVED***',
+  appId: '1:***REMOVED***:web:3ecebd479467743ccd44b7',
 };
 
 firebase.initializeApp(firebaseConfig);
