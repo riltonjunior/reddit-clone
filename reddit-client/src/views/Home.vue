@@ -1,14 +1,6 @@
 <template>
   <div class="home">
-    <button class="button is-danger" @click="login()">Log in with Google</button>
+      <router-link class="button is-primary"
+          :to="{ name: 'Subreddits' }">View Subreddits</router-link>
   </div>
 </template>
-
-<script>
-import { mapActions } from 'vuex';
-
-export default {
-  name: 'Home',
-  methods: mapActions('auth', ['login']),
-};
-</script>

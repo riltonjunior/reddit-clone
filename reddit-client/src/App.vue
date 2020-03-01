@@ -2,17 +2,24 @@
   <div id="app">
     <nav class="navbar is-black" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="/#/">
           ComCom
         </a>
       </div>
+
     <div class="navbar-end">
+      <div class="navbar-item">
+        <router-link class="button is-primary"
+          :to="{ name: 'Subreddits' }">View Subreddits</router-link>
+      </div>
         <div class="navbar-item">
           <div class="field is-grouped">
             <p class="control" v-if="!isLoggedIn">
               <a class="button is-danger" @click="login()">
                 Login with Google
               </a>
+              <router-link class="button is-primary"
+                            :to="{ name: 'Register' }">Register</router-link>
             </p>
             <p class="control logged-in" v-if="isLoggedIn">
               <span class="avatar">

@@ -9,19 +9,19 @@
   * https://firebase.google.com/docs/auth/web/manage-users
     * Save user on login
       * [x] Update Rules
-* [ ] Add VuexFire
+* [x] Add VuexFire
   * https://github.com/posva/vuexfire/tree/firestore
-* [ ] Add a few subreddits in Firestore
+* [x] Add a few subreddits in Firestore
   * general
   * javascript
   * learn-programming
   * pics
   * funny
-* [ ] Show Subreddits on Home Page
-* [ ] Show Single Subreddit
-* [ ] New Post Form
-  * Update Rules
-* [ ] Display Posts on Subreddit Page
+* [x] Show Subreddits on Home Page
+* [x] Show Single Subreddit
+* [x] New Post Form
+  * [x] Update Rules
+* [x] Display Posts on Subreddit Page
   * Types: Image/Text/Url
 
 
