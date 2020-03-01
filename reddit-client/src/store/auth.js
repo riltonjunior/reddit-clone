@@ -1,5 +1,10 @@
 import firebase from '@/firebase';
 
+const state = {
+  user: {},
+  isLoggedIn: false,
+};
+
 const mutations = {
   setUser(state, user) {
     if (user) {
@@ -20,11 +25,6 @@ const actions = {
   async logout() {
     await firebase.auth().signOut();
   },
-};
-
-const state = {
-  user: {},
-  isLoggedIn: false,
 };
 
 export default {
