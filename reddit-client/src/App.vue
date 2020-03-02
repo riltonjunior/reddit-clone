@@ -19,7 +19,7 @@
                 Login with Google
               </a>
               <router-link class="button is-primary"
-                            :to="{ name: 'Register' }">Register</router-link>
+                           :to="{ name: 'Register' }">Register</router-link>
             </p>
             <p class="control logged-in" v-if="isLoggedIn">
               <span class="avatar">
